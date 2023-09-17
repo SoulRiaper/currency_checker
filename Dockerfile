@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["uvicorn", "app.main:app", "--port", "80"]
+CMD ["uvicorn", "main:app", "--port", "80"]
